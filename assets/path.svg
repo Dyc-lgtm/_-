@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 210" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <pattern id="dots3" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#e3ddd2"/>
+    </pattern>
+    <filter id="node" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1f2328" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="980" height="210" fill="#faf9f6"/>
+  <rect width="980" height="210" fill="url(#dots3)" opacity="0.45"/>
+
+  <circle cx="46" cy="36" r="5" fill="#2f6f4f"/>
+  <text x="60" y="42" font-size="17" font-weight="700" fill="#1f2328">课程路径 · 1 篇配置 + 8 课</text>
+
+  <!-- 连接线 -->
+  <line x1="84" y1="120" x2="896" y2="120" stroke="#2f6f4f" stroke-width="3" stroke-linecap="round"/>
+
+  <g>
+    <!-- 节点 -->
+    <g filter="url(#node)"><circle cx="84"  cy="120" r="24" fill="#2f6f4f" stroke="#2f6f4f" stroke-width="2"/></g>
+    <g filter="url(#node)"><circle cx="191" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="299" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="406" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="514" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="621" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="729" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="836" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+    <g filter="url(#node)"><circle cx="896" cy="120" r="24" fill="#ffffff" stroke="#2f6f4f" stroke-width="2.5"/></g>
+
+    <!-- 序号 -->
+    <g font-size="14" font-weight="700" text-anchor="middle">
+      <text x="84"  y="125" fill="#ffffff">00</text>
+      <text x="191" y="125" fill="#2f6f4f">01</text>
+      <text x="299" y="125" fill="#2f6f4f">02</text>
+      <text x="406" y="125" fill="#2f6f4f">03</text>
+      <text x="514" y="125" fill="#2f6f4f">04</text>
+      <text x="621" y="125" fill="#2f6f4f">05</text>
+      <text x="729" y="125" fill="#2f6f4f">06</text>
+      <text x="836" y="125" fill="#2f6f4f">07</text>
+      <text x="896" y="125" fill="#2f6f4f">08</text>
+    </g>
+
+    <!-- 标签 -->
+    <g fill="#1f2328" font-size="13" text-anchor="middle">
+      <text x="84"  y="166">配置</text>
+      <text x="191" y="166">钩子课</text>
+      <text x="299" y="166">能干啥</text>
+      <text x="406" y="166">提示词</text>
+      <text x="514" y="166">架构</text>
+      <text x="621" y="166">行业</text>
+      <text x="729" y="166">实战</text>
+      <text x="836" y="166">审核</text>
+      <text x="896" y="166">迭代</text>
+    </g>
+    <text x="84" y="186" font-size="11" font-weight="600" fill="#2f6f4f" text-anchor="middle">从这儿开始 →</text>
+  </g>
+</svg>
